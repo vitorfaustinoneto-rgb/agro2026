@@ -1,0 +1,71 @@
+(index.html) <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Agrinho <span>2026</span></h1>
+            <p class="subtitulo">Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <h2>O Equilíbrio é o Nosso Futuro</h2>
+            <p>Descubra como a tecnologia e o respeito à natureza caminham juntos para garantir a produção de alimentos sem esgotar os recursos do nosso planeta.</p>
+            <a href="#pilares" class="btn">Conhecer os Pilares</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="conteudo">
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <h3>🌾 Agro Forte</h3>
+                    <p>Uso de tecnologia no campo, robótica, drones e inteligência artificial para otimizar as colheitas e evitar o desperdício.</p>
+                </div>
+                <div class="card">
+                    <h3>🌱 Meio Ambiente</h3>
+                    <p>Preservação das florestas, proteção das fontes de água, rotação de culturas e uso de adubos orgânicos.</p>
+                </div>
+                <div class="card">
+                    <h3>🔄 Equilíbrio</h3>
+                    <p>Produzir o necessário para alimentar a população mundial enquanto garantimos que a terra continue fértil para as próximas gerações.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="interacao">
+        <div class="container">
+            <h2>Calculadora de Atitudes Sustentáveis</h2>
+            <p>Clique nos botões abaixo para simular práticas sustentáveis na fazenda e ver o medidor de equilíbrio subir!</p>
+            
+            <div class="botoes-acoes">
+                <button onclick="adicionarPontos(15)">Reflorestar Margem de Rio (+15)</button>
+                <button onclick="adicionarPontos(10)">Usar Energia Solar (+10)</button>
+                <button onclick="adicionarPontos(20)">Instalar Irrigação Gota a Gota (+20)</button>
+            </div>
+
+            <div class="placar">
+                <p>Nível de Sustentabilidade da Fazenda: <strong id="pontos">0</strong>%</p>
+                <p id="mensagem-status">Sua fazenda precisa adotar práticas mais verdes!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Projeto Agrinho - Criado com Orgulho para um Futuro Sustentável.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
